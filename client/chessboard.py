@@ -44,7 +44,7 @@ class chessboard(object):
                 y = y + n_dir[1]
                 if self.getvalue(x,y) != val:
                     return False
-            return True
+            return Tr
 
         # check if there is a winner (0:unfinished; 1:black win; 2:white win; 3:draw)
         def checkwinner(self):
